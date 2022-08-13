@@ -10,4 +10,15 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Clone this repo.
+
+**Install Docker
+For Manjaro: `sudo pacman -S docker`
+
+**Install docker-compose
+For Manjaro: `sudo pacman -S docker-compose`
+
+Run the containers using the docker-compose config file. 
+cd to root dir of cloned repo & run `docker-compose up`
+
+To test this has worked try navigating to `http://localhost:3001/register`
